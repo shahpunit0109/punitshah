@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resume</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<nav>
+	<div class="navigation">
+		<li class="navi"><a href="index.html" class="active">home</a></li>
+		<li class="navi"><a href="resume.html">resume</a></li>
+		<li class="navi"><a href="education.html">education</a></li>
+		<li class="navi"><a href="contact.html">contact</a></li>
+	</div>
+</nav>
+<h1 class="heading">feel free to contact...</h1>
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+       <input type="text" id="country" name="country" placeholder="Country name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row" id="contact">
+      <input type="submit" value="Submit" onclick="myFunction()" formaction="index.html">
+    </div>
+  </form>
+</div>
+
+<div id="last">
+	<button class="btn"><i class="fa fa-github"></i>  github</button>
+	<button class="btn"><i class="fa fa-linkedin-square"></i>  facebook</button>
+	<button class="btn"><i class="fa fa-facebook-square"></i>  linkedin</button>
+	<button class="btn"><i class="fa fa-instagram"></i>  instagram</button>
+	<button class="btn"><i class="fa fa-envelope"></i>  email</button>
+</div>
+
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
